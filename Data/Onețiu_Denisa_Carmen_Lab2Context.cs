@@ -18,5 +18,7 @@ namespace Onețiu_Denisa_Carmen_Lab2.Data
         public DbSet<Onețiu_Denisa_Carmen_Lab2.Models.Book> Book { get; set; } = default!;
 
         public DbSet<Onețiu_Denisa_Carmen_Lab2.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Onețiu_Denisa_Carmen_Lab2.Models.Category> Category { get; set; }
     }
 }
